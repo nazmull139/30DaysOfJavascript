@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    margin:0;
+    padding: 0;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p{
+
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+ margin-top: 30px;
+}
+.button{
+  font-size: 50px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+    
+}
+.reset{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+#rock{
+    background-color: red;
+}
+#paper{
+    background-color: rgb(57, 157, 197);
+}
+#scissor{
+    background-color: green;
+}
+
+#result{
+    font-size: 40px;
+
+}
+#scores{
+    font-size: 20px;
+    
+}
+
